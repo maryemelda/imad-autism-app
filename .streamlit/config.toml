@@ -1,0 +1,19 @@
+[server]
+headless = true
+```
+
+**Step 4** — Commit the file
+
+---
+
+## Also update `requirements.txt`
+
+Go to `requirements.txt`, click the pencil to edit, and change `tensorflow==2.15.1` to this:
+```
+streamlit
+tensorflow-cpu==2.13.0
+librosa
+soundfile
+opencv-python-headless
+Pillow
+numpy
