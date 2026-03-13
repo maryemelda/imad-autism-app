@@ -1,0 +1,7 @@
+streamlit
+tensorflow
+librosa
+soundfile
+opencv-python-headless
+Pillow
+numpy
